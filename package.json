@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.5",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "GodearthDevLauncher",
+    "preductname": "god earth DevLauncher",
+    "version": "0.1.1",
+    "description": "Launcher Mincraft pour le serveur Dev de god earth",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, Inc., cuitcuit",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://aahtml.000webhostapp.com/launcherdevge",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/attachments/1200794346077827105/1240386131368083648/LOGO.png?ex=664a539a&is=6649021a&hm=b30edaa78130207e3d54e31660184cbfc1a4b78c310373f10a5e0ebdbc00105f&"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/cuitcuit56/dev-god-earth-launcher.git"
     }
 }
